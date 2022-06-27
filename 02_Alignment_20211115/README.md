@@ -12,6 +12,8 @@ mafft --auto $file >$file.mafftaligned.fasta;
 done
 ```
 
+- These files are found in the `mafft_fastas` directory here.
+
 Concatenate these individual gene alignments by sample ID:
 
 ```
