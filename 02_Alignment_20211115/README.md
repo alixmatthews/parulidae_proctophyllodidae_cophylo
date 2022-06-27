@@ -33,7 +33,7 @@ Partition file is each of the genes (i.e., partitioned by gene)
 
 Merit: BIC
 ```
-iqtree -s Mites_concat.fas -spp Mites_concat_partition.txt -m MFP+MERGE -bb 1000 -pre Mites_tree_concat
+iqtree -s Mites_concat.fas -spp Mites_concat_partition.txt -m MFP+MERGE -bb 1000 -pre Mites_tree_concat_BIC
 mkdir iqtree_BIC
 mv Mites_tree_concat.* iqtree_BIC
 ```
