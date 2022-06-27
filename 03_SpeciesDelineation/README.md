@@ -18,36 +18,38 @@ Installed it on XSEDE:
 
 Ready to roll!
 
-Results were the same with and without HOWA (because only using COI, which aligned with ischyros for HOWA), but only showing methods for without HOWA.
 
 ```
-Pwd: /vol_c/mt_genes/20211115/aligned_fasta/MAFFT
+#pwd: /vol_c/mt_genes/20211115/aligned_fasta/MAFFT
 /home/alixmatthews/Abgd/abgd -a -d 0 -p 0.0001 -P 0.1 coi_cat.fasta.mafftaligned.fasta -o ABGD
+
+# -d 0 refers to K2P distances
+# results are the same as with HOWA. Looks like we have 10 species groups. *charitomenos* and *ischyros* split into 2 groups 
+
 ```
-•	-d 0 = K2P distances
-•	Same deal (results) as with HOWA. Looks like we have 10 species groups. charitomenos and ischyros split into 2 groups 
 
 ```
 /home/alixmatthews/Abgd/abgd -a -d 1 -p 0.0001 -P 0.1 coi_cat.fasta.mafftaligned.fasta -o ABGD_JC
+
+# -d 1 refers to Jukes-Cantor distances
+# Same results as K2P
 ```
-•	-d 1 = Jukes-Cantor distances
-•	Same results as K2P
 
 ```
 /home/alixmatthews/Abgd/abgd -a -d 3 -p 0.0001 -P 0.1 coi_cat.fasta.mafftaligned.fasta -o ABGD_raw
-```
-•	-d 3 = raw distances
-•	Same results as K2P and JC
 
+# -d 3 refers to raw genetic distances
+# Same results as K2P and JC
+```
 
 ### PTP/bPTP
 
 Citations:
 
-**PTP**
+**PTP**:
 A General Species Delimitation Method with Applications to Phylogenetic Placements. Zhang, Jiajie, Kapli, P., Pavlidis, P., and Stamatakis, A. Bioinformatics (Oxford, England)(2013), 29 (22): 2869-2876
 
-**bPTP** 
+**bPTP**:
 A General Species Delimitation Method with Applications to Phylogenetic Placements. Zhang, Jiajie, Kapli, P., Pavlidis, P., and Stamatakis, A. Bioinformatics (Oxford, England)(2013), 29 (22): 2869-2876
 
 Did on the online portal:
