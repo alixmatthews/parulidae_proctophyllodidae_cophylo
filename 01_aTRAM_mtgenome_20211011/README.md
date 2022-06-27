@@ -1,7 +1,6 @@
-# Order of operations post 00-PP
+# Using aTRAM to assemble mt genes after pre-processing steps
 
-## Gene assembly from WGS
-`01_aTRAM_mtgenome_20211011.slurm` - Assemble full mtgenome (13 PCGs) for all 33 Kays samples (*Amerodectes* and *Tyrannidectes*), using mitochondrial reference is amino acid translated mt genes from *Proctophyllodes miliariae*, and aTRAM
+`01_aTRAM_mtgenome_20211011.slurm` - Assemble full mtgenome (13 PCGs) for all 33 Kays samples (*Amerodectes* and *Tyrannidectes*) using aTRAM... the mitochondrial reference (`mt_ref.fasta`) is the amino acid translated mt genes from *Proctophyllodes miliariae*
 
 `mt_genes.txt` - file containing the names of the 13 mito PGCs
 
