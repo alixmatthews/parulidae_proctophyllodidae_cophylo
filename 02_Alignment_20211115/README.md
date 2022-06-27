@@ -20,6 +20,8 @@ Concatenate these individual gene alignments by sample ID:
 fasconcat-g -l -s
 ```
 
+- This concatenated file is found in the `mafft_fastas` directory here.
+
 Check it out in SeaView, use amino acid translation (genetic code = 5, invertebrate mitochondrial)
 
 Looks good!
