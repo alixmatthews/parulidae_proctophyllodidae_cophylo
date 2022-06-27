@@ -1,0 +1,282 @@
+IQ-TREE multicore version 1.6.12 for Linux 64-bit built Mar 23 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    a-state-phylogenetics (AVX2, FMA3, 15 GB RAM)
+Command: iqtree -s Mites_concat.fas -spp Mites_concat_partition.txt -m MFP+MERGE -bb 1000 -pre Mites_tree_concat
+Seed:    459963 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Nov 15 12:35:15 2021
+Kernel:  AVX+FMA - 1 threads (6 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 6 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading partition model file Mites_concat_partition.txt ...
+Reading alignment file Mites_concat.fas ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+WARNING: 3 sites contain only gaps or ambiguous characters.
+Alignment has 33 sequences with 9150 columns, 3089 distinct patterns
+3343 parsimony-informative, 888 singleton sites, 4919 constant sites
+                                    Gap/Ambiguity  Composition  p-value
+   1  LOWA_438_A_AACTTGCC-GAAGTTGG          0.59%    passed     22.99%
+   2  CMWA_952_R_CTAAGACC-CTGTTAGG          0.30%    failed      2.14%
+   3  CSWA_939_R_TCCATTGC-TCCTACCT          0.30%    passed     16.21%
+   4  WEWA_727_R_ACCATCCT-GTTCATGG          0.30%    failed      3.83%
+   5  YEWA_941_P_Pr_CTATCCAC-TGTGCGTT       0.43%    failed      0.00%
+   6  NOPA_676_R_AACCGAAC-CGAGTATG          0.43%    failed      2.72%
+   7  BTNW_492_R_AAGGACCA-GTGTTCCT          0.30%    passed     13.55%
+   8  BTBW_850_R_AGGTTCCT-AGGTTCGA          0.30%    passed     19.63%
+   9  YTWA_970_R_GAACCTTC-GTACCTTG          4.59%    passed     12.20%
+  10  SWWA_980_R_TACATCGG-TGATCGGA          0.30%    failed      4.90%
+  11  GWWA_928_R_ACGAGAAC-CGAACTGT          0.30%    passed     12.16%
+  12  BBWA_971_A_CCTATACC-GCTCTGTA          0.33%    passed     26.92%
+  13  CAWA_366_A_CCGGAATA-CCTACTGA_dd       0.30%    passed     16.82%
+  14  YEWA_941_P_Tr_ACGCTTCT-GACTTAGG      14.26%    failed      0.00%
+  15  BPWA_337_C_CAAGCCAA-CTTCGTTC_dd      89.54%    passed     41.29%
+  16  NAWA_328_A_CCACAACA-CTTGGATG          0.30%    failed      0.04%
+  17  CERW_358_A_TCTTCGAC-GAGCAGTA          0.30%    passed     11.29%
+  18  PROW_974_R_CGCTACAT-CGTAGGTT          0.39%    passed     58.56%
+  19  OVEN_614_P_CTTCCTTC-ACCTGGAA          0.30%    failed      0.04%
+  20  BWWA_412_R_GTACACCT-TTGGTCTC          0.30%    passed      7.20%
+  21  CONW_930_R_ATCGTCTC-GTCCTTCT          0.33%    passed     78.29%
+  22  KEWA_584_R_TCTAGGAG-CGTTGCAA          0.30%    failed      0.03%
+  23  PRAW_770_P_AAGTCCTC-TGGTAGCT          0.43%    passed     42.17%
+  24  Proctophyllodes_miliariae             0.20%    failed      0.00%
+  25  COYE_868_R_CCAACACT-AGTTCGTC          0.33%    passed     93.52%
+  26  NOWA_315_A_CGTCCATT-AGGAGGAA          0.39%    passed     17.07%
+  27  MAWA_362_A_CCTTAGGT-TTGAGGCA          0.30%    passed     16.81%
+  28  PIWA_948_R_ATAACGCC-TTGGTGAG          0.33%    passed     76.98%
+  29  BTNW_765_P_CCAAGTAG-TCACGTTC          0.43%    failed      1.08%
+  30  BLBW_861_R_AACGCCTT-TTCTCTCG          0.30%    passed     11.15%
+  31  MOWA_611_R_HC7TNCCX2_subsampled_dd    0.33%    passed     75.46%
+  32  AMRE_967_R_ACGGACTT-TCTCCGAT          0.30%    passed     15.45%
+  33  BAWW_968_P_CGACCTAA-CAGGTTAG          0.30%    passed     79.56%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                 3.59%  11 sequences failed composition chi2 test (p-value<5%; df=3)
+
+Partition file is not in NEXUS format, assuming RAxML-style partition file...
+Subset	Type	Seqs	Sites	Infor	Invar	Model	Name
+1	DNA	32	579	216	286	GTR+MERGE	atp6_cat.fasta.mafftaligned.fasta
+2	DNA	32	1059	397	586	GTR+MERGE	cob_cat.fasta.mafftaligned.fasta
+3	DNA	32	1506	426	982	GTR+MERGE	coi_cat.fasta.mafftaligned.fasta
+4	DNA	32	675	208	395	GTR+MERGE	cox2_cat.fasta.mafftaligned.fasta
+5	DNA	32	750	228	450	GTR+MERGE	cox3_cat.fasta.mafftaligned.fasta
+6	DNA	33	864	331	442	GTR+MERGE	nad1_cat.fasta.mafftaligned.fasta
+7	DNA	31	894	423	404	GTR+MERGE	nad2_cat.fasta.mafftaligned.fasta
+8	DNA	32	312	122	144	GTR+MERGE	nad3_cat.fasta.mafftaligned.fasta
+9	DNA	32	957	371	473	GTR+MERGE	nad4_cat.fasta.mafftaligned.fasta
+10	DNA	33	1173	420	611	GTR+MERGE	nad5_cat.fasta.mafftaligned.fasta
+11	DNA	30	381	201	146	GTR+MERGE	nad6_cat.fasta.mafftaligned.fasta
+Degree of missing data: 0.029
+Info: multi-threading strategy over partitions
+
+
+NOTE: Restoring information from model checkpoint file Mites_tree_concat.model.gz
+
+CHECKPOINT: Initial tree restored
+NOTE: ModelFinder requires 52 MB RAM!
+Testing GTR+F+G on supermatrix...
+GTR+F+G4 / LnL: -60151.310 / df: 72 / AIC: 120446.620 / AICc: 120447.778 / BIC: 120959.368
+Selecting individual models for 11 charsets using BIC...
+ No. Model        Score       Charset
+   1 HKY+F+G4     7701.512    atp6_cat.fasta.mafftaligned.fasta
+   2 TN+F+I+G4    16124.822   cob_cat.fasta.mafftaligned.fasta
+   3 TPM3u+F+I+G4 16349.522   coi_cat.fasta.mafftaligned.fasta
+   4 TPM3u+F+I+G4 7831.164    cox2_cat.fasta.mafftaligned.fasta
+   5 HKY+F+I+G4   8522.662    cox3_cat.fasta.mafftaligned.fasta
+   6 TPM3u+F+I+G4 11475.510   nad1_cat.fasta.mafftaligned.fasta
+   7 HKY+F+I+G4   13090.094   nad2_cat.fasta.mafftaligned.fasta
+   8 HKY+F+G4     4029.278    nad3_cat.fasta.mafftaligned.fasta
+   9 TPM3u+F+I+G4 12650.264   nad4_cat.fasta.mafftaligned.fasta
+  10 TN+F+I+G4    14472.929   nad5_cat.fasta.mafftaligned.fasta	0h:0m:0s (0h:0m:3s left)
+  11 TIM3+F+I+G4  6275.401    nad6_cat.fasta.mafftaligned.fasta	0h:0m:0s (0h:0m:3s left)
+Full partition model BIC score: 119293.836 (LnL: -58985.609  df:145)
+Merging models to increase model fit (about 111 total partition schemes)...
+  12 TIM3+F+I+G4  119479.150  coi_cat.fasta.mafftaligned.fasta+cox3_cat.fasta.mafftaligned.fasta	0h:0m:18s (0h:2m:29s left)
+  13 HKY+F+I+G4   119847.956  coi_cat.fasta.mafftaligned.fasta+nad1_cat.fasta.mafftaligned.fasta	0h:0m:41s (0h:5m:12s left)
+  14 HKY+F+I+G4   120053.179  coi_cat.fasta.mafftaligned.fasta+nad2_cat.fasta.mafftaligned.fasta	0h:1m:5s (0h:7m:32s left)
+  15 TPM3u+F+G4   119576.310  coi_cat.fasta.mafftaligned.fasta+nad3_cat.fasta.mafftaligned.fasta	0h:1m:23s (0h:8m:52s left)
+  16 TN+F+I+G4    119743.693  coi_cat.fasta.mafftaligned.fasta+nad4_cat.fasta.mafftaligned.fasta	0h:1m:49s (0h:10m:48s left)
+  17 GTR+F+I+G4   119841.057  coi_cat.fasta.mafftaligned.fasta+nad5_cat.fasta.mafftaligned.fasta	0h:2m:22s (0h:13m:7s left)
+  18 HKY+F+I+G4   119747.191  coi_cat.fasta.mafftaligned.fasta+nad6_cat.fasta.mafftaligned.fasta	0h:2m:41s (0h:13m:53s left)
+  19 HKY+F+I+G4   119449.552  cox2_cat.fasta.mafftaligned.fasta+cox3_cat.fasta.mafftaligned.fasta	0h:2m:51s (0h:13m:50s left)
+  20 HKY+F+I+G4   119693.058  cox2_cat.fasta.mafftaligned.fasta+nad1_cat.fasta.mafftaligned.fasta	0h:3m:5s (0h:14m:3s left)
+  21 HKY+F+I+G4   119774.258  cox2_cat.fasta.mafftaligned.fasta+nad2_cat.fasta.mafftaligned.fasta	0h:3m:17s (0h:14m:7s left)
+  22 HKY+F+G4     119498.106  cox2_cat.fasta.mafftaligned.fasta+nad3_cat.fasta.mafftaligned.fasta	0h:3m:22s (0h:13m:40s left)
+  23 TN+F+I+G4    119641.702  cox2_cat.fasta.mafftaligned.fasta+nad4_cat.fasta.mafftaligned.fasta	0h:3m:33s (0h:13m:36s left)
+  24 GTR+F+I+G4   119744.243  cox2_cat.fasta.mafftaligned.fasta+nad5_cat.fasta.mafftaligned.fasta	0h:3m:48s (0h:13m:47s left)
+  25 TN+F+I+G4    119593.983  cox2_cat.fasta.mafftaligned.fasta+nad6_cat.fasta.mafftaligned.fasta	0h:3m:56s (0h:13m:32s left)
+  26 HKY+F+I+G4   119783.624  cox3_cat.fasta.mafftaligned.fasta+nad1_cat.fasta.mafftaligned.fasta	0h:4m:10s (0h:13m:37s left)
+  27 TPM3u+F+I+G4 119918.220  cox3_cat.fasta.mafftaligned.fasta+nad2_cat.fasta.mafftaligned.fasta	0h:4m:25s (0h:13m:44s left)
+  28 HKY+F+G4     119507.500  cox3_cat.fasta.mafftaligned.fasta+nad3_cat.fasta.mafftaligned.fasta	0h:4m:32s (0h:13m:28s left)
+  29 TN+F+I+G4    119657.840  cox3_cat.fasta.mafftaligned.fasta+nad4_cat.fasta.mafftaligned.fasta	0h:4m:47s (0h:13m:31s left)
+  30 TIM+F+I+G4   119781.197  cox3_cat.fasta.mafftaligned.fasta+nad5_cat.fasta.mafftaligned.fasta	0h:5m:7s (0h:13m:51s left)
+  31 TVM+F+I+G4   119681.440  cox3_cat.fasta.mafftaligned.fasta+nad6_cat.fasta.mafftaligned.fasta	0h:5m:18s (0h:13m:42s left)
+  32 TPM3u+F+I+G4 119768.505  nad1_cat.fasta.mafftaligned.fasta+nad2_cat.fasta.mafftaligned.fasta	0h:5m:43s (0h:14m:7s left)
+  33 TPM3u+F+I+G4 119784.986  nad1_cat.fasta.mafftaligned.fasta+nad3_cat.fasta.mafftaligned.fasta	0h:5m:55s (0h:14m:1s left)
+  34 TPM3u+F+I+G4 120001.782  nad1_cat.fasta.mafftaligned.fasta+nad4_cat.fasta.mafftaligned.fasta	0h:6m:13s (0h:14m:5s left)
+  35 HKY+F+I+G4   120084.465  nad1_cat.fasta.mafftaligned.fasta+nad5_cat.fasta.mafftaligned.fasta	0h:6m:39s (0h:14m:27s left)
+  36 TPM3u+F+I+G4 119647.425  nad1_cat.fasta.mafftaligned.fasta+nad6_cat.fasta.mafftaligned.fasta	0h:6m:56s (0h:14m:27s left)
+  37 TPM3+F+G4    119806.606  nad2_cat.fasta.mafftaligned.fasta+nad3_cat.fasta.mafftaligned.fasta	0h:7m:3s (0h:14m:7s left)
+  38 TIM3+F+I+G4  120142.526  nad2_cat.fasta.mafftaligned.fasta+nad4_cat.fasta.mafftaligned.fasta	0h:7m:20s (0h:14m:5s left)
+  39 TN+F+I+G4    120231.165  nad2_cat.fasta.mafftaligned.fasta+nad5_cat.fasta.mafftaligned.fasta	0h:7m:44s (0h:14m:17s left)
+  40 TIM3+F+I+G4  119501.920  nad2_cat.fasta.mafftaligned.fasta+nad6_cat.fasta.mafftaligned.fasta	0h:8m:4s (0h:14m:20s left)
+  41 TN+F+I+G4    119662.363  nad3_cat.fasta.mafftaligned.fasta+nad4_cat.fasta.mafftaligned.fasta	0h:8m:12s (0h:14m:0s left)
+  42 TIM+F+G4     119790.112  nad3_cat.fasta.mafftaligned.fasta+nad5_cat.fasta.mafftaligned.fasta	0h:8m:22s (0h:13m:45s left)
+  43 TPM3u+F+I+G4 119633.088  nad3_cat.fasta.mafftaligned.fasta+nad6_cat.fasta.mafftaligned.fasta	0h:8m:27s (0h:13m:22s left)
+  44 TIM+F+I+G4   119911.057  nad4_cat.fasta.mafftaligned.fasta+nad5_cat.fasta.mafftaligned.fasta	0h:8m:48s (0h:13m:24s left)
+  45 TIM3+F+I+G4  119844.147  nad4_cat.fasta.mafftaligned.fasta+nad6_cat.fasta.mafftaligned.fasta	0h:9m:0s (0h:13m:12s left)
+  46 TN+F+I+G4    119950.193  nad5_cat.fasta.mafftaligned.fasta+nad6_cat.fasta.mafftaligned.fasta	0h:9m:20s (0h:13m:11s left)
+Merging coi_cat.fasta.mafftaligned.fasta+cox2_cat.fasta.mafftaligned.fasta with BIC score: 119245.279 (LnL: -58997.816  df: 137)
+  47 TIM3+F+I+G4  119659.490  atp6_cat.fasta.mafftaligned.fasta+coi_cat.fasta.mafftaligned.fasta+cox2_cat.fasta.mafftaligned.fasta	0h:9m:47s (0h:13m:20s left)
+  48 TPM3u+F+R3   119951.674  cob_cat.fasta.mafftaligned.fasta+coi_cat.fasta.mafftaligned.fasta+cox2_cat.fasta.mafftaligned.fasta	0h:10m:24s (0h:13m:40s left)
+  49 TIM3+F+I+G4  119524.773  coi_cat.fasta.mafftaligned.fasta+cox2_cat.fasta.mafftaligned.fasta+cox3_cat.fasta.mafftaligned.fasta	0h:10m:52s (0h:13m:45s left)
+  50 HKY+F+I+G4   119896.630  coi_cat.fasta.mafftaligned.fasta+cox2_cat.fasta.mafftaligned.fasta+nad1_cat.fasta.mafftaligned.fasta	0h:11m:24s (0h:13m:54s left)
+  51 HKY+F+I+G4   120130.277  coi_cat.fasta.mafftaligned.fasta+cox2_cat.fasta.mafftaligned.fasta+nad2_cat.fasta.mafftaligned.fasta	0h:11m:55s (0h:14m:1s left)
+  52 TIM3+F+I+G4  119621.213  coi_cat.fasta.mafftaligned.fasta+cox2_cat.fasta.mafftaligned.fasta+nad3_cat.fasta.mafftaligned.fasta	0h:12m:19s (0h:13m:59s left)
+  53 TIM3+F+I+G4  119785.547  coi_cat.fasta.mafftaligned.fasta+cox2_cat.fasta.mafftaligned.fasta+nad4_cat.fasta.mafftaligned.fasta	0h:12m:53s (0h:14m:6s left)
+  54 GTR+F+I+G4   119866.921  coi_cat.fasta.mafftaligned.fasta+cox2_cat.fasta.mafftaligned.fasta+nad5_cat.fasta.mafftaligned.fasta	0h:13m:29s (0h:14m:14s left)
+  55 TN+F+I+G4    119799.060  coi_cat.fasta.mafftaligned.fasta+cox2_cat.fasta.mafftaligned.fasta+nad6_cat.fasta.mafftaligned.fasta	0h:13m:57s (0h:14m:12s left)
+Merging atp6_cat.fasta.mafftaligned.fasta+nad3_cat.fasta.mafftaligned.fasta with BIC score: 119203.964 (LnL: -59004.523  df: 131)
+  56 TN+F+R3      119960.804  atp6_cat.fasta.mafftaligned.fasta+cob_cat.fasta.mafftaligned.fasta+nad3_cat.fasta.mafftaligned.fasta	0h:14m:20s (0h:14m:5s left)
+  57 TVM+F+G4     119788.219  atp6_cat.fasta.mafftaligned.fasta+coi_cat.fasta.mafftaligned.fasta+cox2_cat.fasta.mafftaligned.fasta+nad3_cat.fasta.mafftaligned.fasta	0h:14m:52s (0h:14m:5s left)
+  58 HKY+F+G4     119593.578  atp6_cat.fasta.mafftaligned.fasta+cox3_cat.fasta.mafftaligned.fasta+nad3_cat.fasta.mafftaligned.fasta	0h:15m:3s (0h:13m:45s left)
+  59 TPM3+F+I+G4  119933.596  atp6_cat.fasta.mafftaligned.fasta+nad1_cat.fasta.mafftaligned.fasta+nad3_cat.fasta.mafftaligned.fasta	0h:15m:19s (0h:13m:30s left)
+  60 TPM3u+F+R2   120055.470  atp6_cat.fasta.mafftaligned.fasta+nad2_cat.fasta.mafftaligned.fasta+nad3_cat.fasta.mafftaligned.fasta	0h:15m:33s (0h:13m:13s left)
+  61 TN+F+R2      119759.384  atp6_cat.fasta.mafftaligned.fasta+nad3_cat.fasta.mafftaligned.fasta+nad4_cat.fasta.mafftaligned.fasta	0h:15m:45s (0h:12m:55s left)
+  62 GTR+F+R2     119884.432  atp6_cat.fasta.mafftaligned.fasta+nad3_cat.fasta.mafftaligned.fasta+nad5_cat.fasta.mafftaligned.fasta	0h:16m:1s (0h:12m:40s left)
+  63 TPM3u+F+R2   119785.707  atp6_cat.fasta.mafftaligned.fasta+nad3_cat.fasta.mafftaligned.fasta+nad6_cat.fasta.mafftaligned.fasta	0h:16m:12s (0h:12m:20s left)
+BEST-FIT PARTITION MODEL: 
+  charpartition BIC = HKY+F+G4: atp6_cat.fasta.mafftaligned.fasta nad3_cat.fasta.mafftaligned.fasta, TN+F+I+G4: cob_cat.fasta.mafftaligned.fasta, TPM3u+F+I+G4: coi_cat.fasta.mafftaligned.fasta cox2_cat.fasta.mafftaligned.fasta, HKY+F+I+G4: cox3_cat.fasta.mafftaligned.fasta, TPM3u+F+I+G4: nad1_cat.fasta.mafftaligned.fasta, HKY+F+I+G4: nad2_cat.fasta.mafftaligned.fasta, TPM3u+F+I+G4: nad4_cat.fasta.mafftaligned.fasta, TN+F+I+G4: nad5_cat.fasta.mafftaligned.fasta, TIM3+F+I+G4: nad6_cat.fasta.mafftaligned.fasta;
+Agglomerative model selection: ((atp6_cat.fasta.mafftaligned.fasta,nad3_cat.fasta.mafftaligned.fasta)2:119204,cob_cat.fasta.mafftaligned.fasta,(coi_cat.fasta.mafftaligned.fasta,cox2_cat.fasta.mafftaligned.fasta)1:119245,cox3_cat.fasta.mafftaligned.fasta,nad1_cat.fasta.mafftaligned.fasta,nad2_cat.fasta.mafftaligned.fasta,nad4_cat.fasta.mafftaligned.fasta,nad5_cat.fasta.mafftaligned.fasta,nad6_cat.fasta.mafftaligned.fasta)
+Merging into 9 partitions...
+Partition information was printed to Mites_tree_concat.best_scheme.nex
+Partition information in Raxml format was printed to Mites_tree_concat.best_scheme
+
+All model information printed to Mites_tree_concat.model.gz
+CPU time for ModelFinder: 967.730 seconds (0h:16m:7s)
+Wall-clock time for ModelFinder: 972.435 seconds (0h:16m:12s)
+Generating 1000 samples for ultrafast bootstrap (seed: 459963)...
+
+NOTE: 28 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -64630.122
+Current log-likelihood at step 1: -59813.095
+Current log-likelihood at step 2: -59473.022
+Current log-likelihood at step 3: -59388.590
+Current log-likelihood at step 4: -59271.602
+Current log-likelihood at step 5: -59251.000
+Current log-likelihood at step 6: -59237.072
+Current log-likelihood at step 7: -59223.802
+Current log-likelihood at step 8: -59210.506
+Current log-likelihood at step 9: -59197.041
+Current log-likelihood at step 10: -59183.418
+Current log-likelihood at step 11: -59169.974
+Current log-likelihood at step 12: -59156.717
+Current log-likelihood at step 13: -59143.403
+Current log-likelihood at step 14: -59129.813
+Current log-likelihood at step 15: -59115.961
+Current log-likelihood at step 16: -59101.406
+Current log-likelihood at step 17: -58984.718
+Current log-likelihood at step 18: -58971.123
+Current log-likelihood at step 19: -58966.173
+Current log-likelihood at step 20: -58963.206
+Current log-likelihood at step 21: -58961.283
+Current log-likelihood at step 22: -58960.168
+Current log-likelihood at step 23: -58959.588
+Current log-likelihood at step 24: -58959.285
+Current log-likelihood at step 25: -58959.117
+Current log-likelihood at step 26: -58959.017
+Current log-likelihood at step 27: -58958.950
+Partition-specific rates:  0.840 2.069 0.716 0.830 0.760 1.224 0.904 0.699 1.553
+Parameters optimization took 26 rounds (6.492 sec)
+
+Computing ML distances based on estimated model parameters... 0.069 sec
+Computing BIONJ tree...
+0.001 seconds
+Log-likelihood of BIONJ tree: -59272.162
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 2.078 second
+Computing log-likelihood of 98 initial trees ... 8.669 seconds
+Current best score: -58958.950
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -58942.505
+Current log-likelihood at step 1: -58942.079
+Current log-likelihood at step 2: -58942.020
+Parameters optimization took 1 rounds (0.296 sec)
+
+BETTER TREE FOUND at iteration 1: -58942.020
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -58940.059
+Current log-likelihood at step 1: -58939.988
+Parameters optimization took 0 rounds (0.130 sec)
+
+BETTER TREE FOUND at iteration 2: -58939.988
+Iteration 10 / LogL: -58942.201 / Time: 0h:0m:26s
+Iteration 20 / LogL: -58940.600 / Time: 0h:0m:37s
+Finish initializing candidate tree set (7)
+Current best tree score: -58939.988 / CPU time: 30.513
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -59087.350 / Time: 0h:0m:48s (0h:1m:59s left)
+Iteration 40 / LogL: -58941.264 / Time: 0h:0m:59s (0h:1m:35s left)
+Iteration 50 / LogL: -58941.844 / Time: 0h:1m:10s (0h:1m:15s left)
+Log-likelihood cutoff on original alignment: -59008.296
+Iteration 60 / LogL: -59146.061 / Time: 0h:1m:22s (0h:0m:58s left)
+UPDATE BEST LOG-LIKELIHOOD: -58939.983
+Iteration 70 / LogL: -58940.637 / Time: 0h:1m:34s (0h:0m:43s left)
+Iteration 80 / LogL: -59213.288 / Time: 0h:1m:44s (0h:0m:29s left)
+Iteration 90 / LogL: -58994.835 / Time: 0h:1m:55s (0h:0m:15s left)
+Iteration 100 / LogL: -58940.680 / Time: 0h:2m:6s (0h:0m:2s left)
+Log-likelihood cutoff on original alignment: -59008.296
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+TREE SEARCH COMPLETED AFTER 103 ITERATIONS / Time: 0h:2m:10s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+Initial log-likelihood: -58939.980
+Current log-likelihood at step 1: -58939.956
+Current log-likelihood at step 2: -58939.947
+Partition-specific rates:  0.846 2.026 0.717 0.854 0.775 1.222 0.914 0.695 1.560
+Parameters optimization took 1 rounds (0.268 sec)
+
+BEST SCORE FOUND : -58939.947
+Creating bootstrap support values...
+Split supports printed to NEXUS file Mites_tree_concat.splits.nex
+Total tree length: 4.925
+
+Total number of iterations: 103
+CPU time used for tree search: 118.647 sec (0h:1m:58s)
+Wall-clock time used for tree search: 122.910 sec (0h:2m:2s)
+Total CPU time used: 126.035 sec (0h:2m:6s)
+Total wall-clock time used: 130.439 sec (0h:2m:10s)
+
+Computing bootstrap consensus tree...
+Reading input file Mites_tree_concat.splits.nex...
+33 taxa and 142 splits.
+Consensus tree written to Mites_tree_concat.contree
+Reading input trees file Mites_tree_concat.contree
+Log-likelihood of consensus tree: -58942.651
+
+Analysis results written to: 
+  IQ-TREE report:                Mites_tree_concat.iqtree
+  Maximum-likelihood tree:       Mites_tree_concat.treefile
+  Likelihood distances:          Mites_tree_concat.mldist
+  Best partitioning scheme:      Mites_tree_concat.best_scheme.nex
+           in RAxML format:      Mites_tree_concat.best_scheme
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          Mites_tree_concat.splits.nex
+  Consensus tree:                Mites_tree_concat.contree
+  Screen log file:               Mites_tree_concat.log
+
+Date and Time: Mon Nov 15 12:53:38 2021

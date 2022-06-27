@@ -1,0 +1,20 @@
+#nexus
+begin sets;
+  charset atp6_cat.fasta.mafftaligned.fasta = 1-579;
+  charset cob_cat.fasta.mafftaligned.fasta = 580-1638;
+  charset coi_cat.fasta.mafftaligned.fasta = 1639-3144;
+  charset cox2_cat.fasta.mafftaligned.fasta_nad5_cat.fasta.mafftaligned.fasta = 3145-3819  7597-8769;
+  charset cox3_cat.fasta.mafftaligned.fasta = 3820-4569;
+  charset nad1_cat.fasta.mafftaligned.fasta = 4570-5433;
+  charset nad2_cat.fasta.mafftaligned.fasta_nad6_cat.fasta.mafftaligned.fasta = 5434-6327  8770-9150;
+  charset nad3_cat.fasta.mafftaligned.fasta_nad4_cat.fasta.mafftaligned.fasta = 6328-6639  6640-7596;
+  charpartition mymodels =
+    TPM3u+F+R2: atp6_cat.fasta.mafftaligned.fasta,
+    TIM+F+I+G4: cob_cat.fasta.mafftaligned.fasta,
+    GTR+F+I+G4: coi_cat.fasta.mafftaligned.fasta,
+    GTR+F+I+G4: cox2_cat.fasta.mafftaligned.fasta_nad5_cat.fasta.mafftaligned.fasta,
+    HKY+F+I+G4: cox3_cat.fasta.mafftaligned.fasta,
+    TIM3+F+I+G4: nad1_cat.fasta.mafftaligned.fasta,
+    TIM3+F+R3: nad2_cat.fasta.mafftaligned.fasta_nad6_cat.fasta.mafftaligned.fasta,
+    GTR+F+I+G4: nad3_cat.fasta.mafftaligned.fasta_nad4_cat.fasta.mafftaligned.fasta;
+end;

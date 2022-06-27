@@ -1,0 +1,8 @@
+DNAF, atp6_cat.fasta.mafftaligned.fasta = 1-579
+DNAF, cob_cat.fasta.mafftaligned.fasta = 580-1638
+DNAF, coi_cat.fasta.mafftaligned.fasta = 1639-3144
+DNAF, cox2_cat.fasta.mafftaligned.fasta_nad5_cat.fasta.mafftaligned.fasta = 3145-3819, 7597-8769
+DNAF, cox3_cat.fasta.mafftaligned.fasta = 3820-4569
+DNAF, nad1_cat.fasta.mafftaligned.fasta = 4570-5433
+DNAF, nad2_cat.fasta.mafftaligned.fasta_nad6_cat.fasta.mafftaligned.fasta = 5434-6327, 8770-9150
+DNAF, nad3_cat.fasta.mafftaligned.fasta_nad4_cat.fasta.mafftaligned.fasta = 6328-6639, 6640-7596
