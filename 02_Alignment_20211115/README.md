@@ -58,7 +58,7 @@ mkdir iqtree_AICc
 mv Mites_tree_concat_AICc.* iqtree_AICc
 ```
 open the .treefile
-This tree looks really good too, higher support than BIC and AIC. Highest support! << this was the final concatenated tree that I moved forward with.
+This tree looks really good too, higher support than BIC and AIC. Highest support! << this (AICc) was the final concatenated tree that I moved forward with.
 
 
 
@@ -94,8 +94,7 @@ This is the final coalescent tree I moved forward with
 
 ### Now to compare with COI only...
 
-Tried BIC, AIC, and AICc in the same way, AICc had the highest support, so moved forward with that tree (20211115/aligned_fasta/concat/coi_only/AICc)
-
+Tried BIC, AIC, and AICc in the same way, AICc had the highest support, so moved forward with the AICc tree
 ```
 iqtree -s coi_cat.fasta.mafftaligned.fasta -m MFP -merit AICc -bb 1000 -pre COI_AICc
 ```
