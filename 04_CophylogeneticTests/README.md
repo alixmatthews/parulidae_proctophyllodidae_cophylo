@@ -62,7 +62,7 @@ Necessary files:
 ### JANE
 - `amero_matrix.csv`: association_matrix.txt (old names) converted from .txt to .csv in Excel, necessary to do so for the `make_tangle.py` script below
 
-- `make_tangle.py`: script created by Andrew Sweet to take in .nwk files of phylogenies, an association matrix (above) and will create a .nex file necessary for JANE.
+- `make_tangle.py`: script created by Andrew Sweet to take in .nwk files of phylogenies (can be created in the .R script or however else you want to do it), an association matrix (above) and will create a .nex file necessary for JANE.
 
 Then I ran the following to make the .nex files necessary for import into JANE (unless you want to do it by hand, ha!):
 
