@@ -62,7 +62,7 @@ mv Mites_tree_concat_AICc.* iqtree_AICc
 open the .treefile
 This tree looks really good too, higher support than BIC and AIC. Highest support! << this (AICc) was the final concatenated tree that I moved forward with.
 
----
+
 
 
 ### Now to compare with COI only...
