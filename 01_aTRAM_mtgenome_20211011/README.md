@@ -9,4 +9,4 @@
 
 `mtgene_cat.slurm` - slurm script to submit `gene_cat.py` as a job on AHPCC.  
 
-The end result is several .fasta files named `$gene_cat.fasta` and these are ready to move on to 02_Alignment!
+The end result is several .fasta files named `$gene_cat.fasta` and these are ready to move on to 02_Alignment! Can be found in `RESULTS` directory here.
