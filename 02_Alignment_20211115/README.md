@@ -26,8 +26,10 @@ Check it out in SeaView, use amino acid translation (genetic code = 5, invertebr
 
 Looks good!
 
+---
 
 ### IQ-TREE
+- Can find all relevant inputs/results in `IQTREE` directory here
 
 Partition file is each of the genes (i.e., partitioned by gene)
 
@@ -60,9 +62,23 @@ mv Mites_tree_concat_AICc.* iqtree_AICc
 open the .treefile
 This tree looks really good too, higher support than BIC and AIC. Highest support! << this (AICc) was the final concatenated tree that I moved forward with.
 
+---
 
+
+### Now to compare with COI only...
+
+Tried BIC, AIC, and AICc in the same way, AICc had the highest support, so moved forward with the AICc tree
+```
+iqtree -s coi_cat.fasta.mafftaligned.fasta -m MFP -merit AICc -bb 1000 -pre COI_AICc
+```
+
+Best-fit model according to AICc: TIM3+F+I+G4 ** this tree has the highest support (even though it is still very low for some clades)...
+
+
+---
 
 ### ASTRAL: went ahead to do gene trees -> coalescent tree again for old time's sake
+- Can find all relevant inputs/results in `ASTRAL` directory here
 
 IQ-TREE by gene
 ```
@@ -89,17 +105,5 @@ And then ASTRAL on these gene_trees.trees files
 astral -i mt_genes_trees.trees -o mite_species_tree.tre
 ```
 
-This is the final coalescent tree I moved forward with
-
-
-### Now to compare with COI only...
-
-Tried BIC, AIC, and AICc in the same way, AICc had the highest support, so moved forward with the AICc tree
-```
-iqtree -s coi_cat.fasta.mafftaligned.fasta -m MFP -merit AICc -bb 1000 -pre COI_AICc
-```
-
-Best-fit model according to AICc: TIM3+F+I+G4 ** this tree has the highest support (even though it is still very low for some clades)...
-
-
+This is the final coalescent tree I moved forward with.
 
