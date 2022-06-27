@@ -1,5 +1,4 @@
 # Preprocessing of sequencing data for <i>Amerodectes</i> (et al.) phylogeny
-## These files are cleaned from original GitHub repo `(20210816_projects/20210816_phylo)`
 
 Alix Matthews
 
