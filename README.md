@@ -7,17 +7,23 @@ Associated manuscript: n/a
 ---
 In order:
 
-`00_PP_20210902`: pre-processing steps of `.fastq` files
+### 00_PP_20210902
+- pre-processing steps of `.fastq` files
 
-`01_aTRAM_mtgenome_20211011`: extract the mt-genes from `.fastq` files using aTRAM
+### 01_aTRAM_mtgenome_20211011
+- extract the mt-genes from `.fastq` files using aTRAM
 
-`02_Alignment_20211115`: sequence alignment and estimating phylogenetic trees
+### 02_Alignment_20211115
+- sequence alignment and estimating phylogenetic trees
 
-`03_SpeciesDelineation`: species delineation analyses 
+### 03_SpeciesDelineation
+- species delineation analyses 
 
-`04_CophylogeneticTests`: cophylogenetic analyses
+### 04_CophylogeneticTests
+- cophylogenetic analyses
 
-`FIGURES`: figures used in manuscript (and `.tre` files used to create them)
+### FIGURES
+- figures used in manuscript (and `.tre` files used to create them)
 
 ---
 
