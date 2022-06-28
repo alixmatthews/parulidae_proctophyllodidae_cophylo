@@ -17,7 +17,7 @@ In order:
 
 `04_CophylogeneticTests`: cophylogenetic analyses
 
-`FIGURES`: figures used in manuscript (and .tre files used to create them)
+`FIGURES`: figures used in manuscript (and `.tre` files used to create them)
 
 ---
 
