@@ -18,7 +18,7 @@ bp_mpi --version # version 1.9
 `04_PhyloBayes_chain*.slurm` 
 
 ### 3. Run multiple chains for PhyloBayes (COI) in `COI` directory
-`COI_only/04_PhyloBayes_chain*.slurm` 
+`COI/04_PhyloBayes_chain*.slurm` 
    - I ran these on comp01 and then restarted them as I was timed out. The `restart.slurm`s are the ones I ran to restart the chain from the previous stopping spot until I got to 30k MCMCs. comp72 and comp06 were too backed up or else would have just run it on there for a full 6 hours or so!
 
 4. Check the .trace files to see how many cycles it has gone
