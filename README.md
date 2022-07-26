@@ -14,7 +14,7 @@ In order:
 - extract the mt-genes from `.fastq` files using aTRAM
 
 ### 02_Alignment_20211115
-- sequence alignment and estimating phylogenetic trees
+- sequence alignment and estimating phylogenetic trees (maximum likelihood)
 
 ### 03_SpeciesDelineation
 - species delineation analyses 
