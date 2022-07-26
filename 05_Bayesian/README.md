@@ -2,7 +2,7 @@
 
 
 ### 0. Manually convert .fasta file to .phy file
-      - use some savvy find/replace in BBEdit 
+- use some savvy find/replace in BBEdit 
 
 ### 1. Install PhyloBayes-MPI on AHPCC
 ```
