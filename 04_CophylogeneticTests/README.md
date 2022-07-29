@@ -72,3 +72,4 @@ python3 make_tangle.py -m amero_matrix.csv -s Lovette_hosts.nwk -p Mites_concat_
 python3 make_tangle.py -m amero_matrix.csv -s Lovette_hosts.nwk -p Mites_coi.nwk -o Lovette_Mites_coi.nex
 ```
 
+I renamed the species in these and resaved these as: `Lovette_Mites_coi_jane_renamed.nex` and `Lovette_Mites_concatenated_jane_renamed.nex`
