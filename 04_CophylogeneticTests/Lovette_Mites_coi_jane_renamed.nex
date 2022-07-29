@@ -1,0 +1,43 @@
+#NEXUS
+BEGIN HOST;
+	TREE * Host1 = (((((Cardellina_canadensis,((((((Setophaga_virens,Setophaga_discolor),(Setophaga_dominica,Setophaga_pinus)),Setophaga_caerulescens),((Setophaga_pensylvanica,Setophaga_striata),(Setophaga_castanea,Setophaga_fusca)),((Setophaga_americana,Setophaga_cerulea),Setophaga_tigrina),Setophaga_ruticilla),Setophaga_magnolia),Setophaga_citrina)),((((Geothlypis_trichas,Geothlypis_formosa),Geothlypis_philadelphia),Oporornis_agilis),Leiothlypis_ruficapilla)),(((Limnothlypis_swainsonii,Protonotaria_citrea),Mniotilta_varia),(Vermivora_chrysoptera,Vermivora_cyanoptera)),(Parkesia_motacilla,Parkesia_noveboracensis)),Helmitheros_vermivorum),Seiurus_aurocapilla);
+ENDBLOCK;
+BEGIN PARASITE;
+	TREE * Para1 = ((Tyrannidectes_charitomenos,Tyrannidectes_aff_charitomenos),((((Amerodectes_ischyros,Amerodectes_aff_ischyros),(Amerodectes_helmitheros,Amerodectes_sp_n_1)),(Amerodectes_hribari,Amerodectes_protonotaria)),(Amerodectes_seiurus,Amerodectes_jonesborensis)));
+ENDBLOCK;
+BEGIN DISTRIBUTION;
+	RANGE
+		Amerodectes_seiurus:Seiurus_aurocapilla,
+		Amerodectes_helmitheros:Helmitheros_vermivorum,
+		Amerodectes_seiurus:Leiothlypis_ruficapilla,
+		Amerodectes_ischyros:Vermivora_cyanoptera,
+		Amerodectes_ischyros:Vermivora_chrysoptera,
+		Amerodectes_hribari:Geothlypis_trichas,
+		Amerodectes_seiurus:Geothlypis_formosa,
+		Amerodectes_hribari:Oporornis_agilis,
+		Amerodectes_hribari:Geothlypis_philadelphia,
+		Amerodectes_sp_n_1:Mniotilta_varia,
+		Amerodectes_jonesborensis:Parkesia_noveboracensis,
+		Amerodectes_jonesborensis:Parkesia_motacilla,
+		Amerodectes_ischyros:Cardellina_canadensis,
+		Tyrannidectes_charitomenos:Setophaga_citrina,
+		Amerodectes_ischyros:Setophaga_citrina,
+		Amerodectes_ischyros:Setophaga_magnolia,
+		Amerodectes_ischyros:Setophaga_cerulea,
+		Tyrannidectes_charitomenos:Setophaga_americana,
+		Amerodectes_ischyros:Setophaga_tigrina,
+		Amerodectes_ischyros:Setophaga_caerulescens,
+		Amerodectes_ischyros:Setophaga_ruticilla,
+		Tyrannidectes_charitomenos:Setophaga_dominica,
+		Amerodectes_hribari:Setophaga_pinus,
+		Tyrannidectes_aff_charitomenos:Setophaga_discolor,
+		Tyrannidectes_charitomenos:Setophaga_virens,
+		Amerodectes_ischyros:Setophaga_virens,
+		Amerodectes_ischyros:Setophaga_fusca,
+		Amerodectes_ischyros:Setophaga_pensylvanica,
+		Amerodectes_aff_ischyros:Setophaga_striata,
+		Amerodectes_aff_ischyros:Setophaga_castanea,
+		Amerodectes_helmitheros:Limnothlypis_swainsonii,
+		Amerodectes_protonotaria:Protonotaria_citrea,
+	;
+END;
