@@ -29,6 +29,10 @@ In order:
 - figures used in manuscript (and `.tre` files used to create some of them)
 - Table S1
 
+### SEQUENCES
+- `.fasta` and `.nxs` files of alignments
+- includes a file linking original sample names (used in data processing) and final label names (used in manuscript)
+
 ---
 
 NOTE: This repo is extracted from the original GitHub repo that was curated during data processing (`20210816_projects/20210816_phylo`), but has been cleaned for the public.
