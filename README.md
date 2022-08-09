@@ -27,6 +27,7 @@ In order:
 
 ### FIGURES
 - figures used in manuscript (and `.tre` files used to create some of them)
+- Table S1
 
 ---
 
