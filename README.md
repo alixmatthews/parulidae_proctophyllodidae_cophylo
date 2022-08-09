@@ -2,7 +2,7 @@
 
 This repo has all the code necessary to reproduce results presented in the associated manuscript.
 
-Associated manuscript: n/a
+Associated manuscript: currently in review
 
 ---
 In order:
