@@ -2,7 +2,7 @@
 
 This repo has all the code necessary to reproduce results presented in the associated manuscript.
 
-Associated manuscript: currently in review
+Associated manuscript: https://doi.org/10.1093/sysbio/syad014
 
 ---
 In order:
