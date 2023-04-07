@@ -1,5 +1,23 @@
 # Host tree and cophylogenetic tests
 
+---
+## Files in this directory:
+Various input/output files for cophylogenetic analysis 
+
+- `COI_AICc_rooted.treefile`
+- `Lovette_Mites_coi.nex`
+- `Lovette_Mites_coi_jane_renamed.nex`
+- `Lovette_Mites_concat_AICc.nex`
+- `Lovette_Mites_concatenated_jane_renamed.nex`
+- `Lovetteetal2010parulids.nex`
+- `Mites_tree_concat_AICc_rooted.treefile`
+- `ParaFit_PACo_Clean.R`
+- `amero_matrix.csv`
+- `amero_matrix_newnames.txt`
+- `consensus95_hosts_ogs.tre`
+- `make_tangle.py`
+
+---
 
 ## Obtain a host tree
 
