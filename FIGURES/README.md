@@ -1,6 +1,6 @@
 ## Files in this directory/subdirectories
 
-
-`FIGURES`: contains `.pdf` files of all figures (legend in directory) - removed for Dryad submission
-
-`TREE_FILES`: contains `.tre` files used to create figures. chain12 is COI dataset; chain14 is concatenated dataset
+- `Table_S1_20230108_DataDryad.xlsx`
+- `Table_S2_20220811_DataDryad.xlsx`
+- `FIGURES`: contains `.pdf` files of all figures (legend in directory) - removed for Dryad submission
+- `TREE_FILES`: contains `.tre` files used to create figures. chain12 is COI dataset; chain14 is concatenated dataset
