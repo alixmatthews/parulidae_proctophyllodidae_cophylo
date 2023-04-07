@@ -1,7 +1,5 @@
 Multispecies coalescent, gene trees
 
-## Files in this directory: 
-
 ## Files in this directory:
 Various output files from IQTREE analysis 
 
