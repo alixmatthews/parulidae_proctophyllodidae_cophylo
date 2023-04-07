@@ -1,4 +1,5 @@
-## Figures for manuscript
+## Files in this directory/subdirectories
+
 
 `FIGURES`: contains `.pdf` files of all figures (legend in directory) - removed for Dryad submission
 
