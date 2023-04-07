@@ -1,5 +1,19 @@
 # Using aTRAM to assemble mt genes after pre-processing steps
 
+## Files in this directory:
+
+- `01_aTRAM_mtgenome_20211011.slurm`
+- `gene_cat.py`
+- `mt_genes.txt`
+- `mt_ref.fasta`
+- `mtgene_cat.slurm`
+
+
+---
+
+### Info about files
+
+
 `01_aTRAM_mtgenome_20211011.slurm` - Assemble full mtgenome (13 PCGs) for all 33 Kays samples (*Amerodectes* and *Tyrannidectes*) using aTRAM... the mitochondrial reference (`mt_ref.fasta`) is the amino acid translated mt genes from *Proctophyllodes miliariae*
 
 `mt_genes.txt` - file containing the names of the 13 mito PGCs
