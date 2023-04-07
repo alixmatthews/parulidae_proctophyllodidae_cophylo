@@ -8,6 +8,15 @@ Date: 20210902
 - AHPCC: ```/scrfs/storage/amatthews/20210816_projects/20210816_phylo/00_PP_20210902```
 
 ---
+## Files in this directory:
+- `00_PP_20210902_a_phylo.slurm`
+- `00_PP_20210903_b_phylo.slurm`
+- `00_PP_20210903_c_phylo.slurm`
+- `00_PP_20210906_d_phylo.slurm`
+- `20210816_phylo_filenames.txt`
+- `adapters.fa`
+
+---
 
 ### Initial Pre-processing 
 
