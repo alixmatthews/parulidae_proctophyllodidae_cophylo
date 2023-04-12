@@ -1,5 +1,5 @@
 ## Files in this directory:
-Various output files from IQTREE analysis 
+Various output files from IQTREE analysis using AICc as model selection criterion (final tree here)
 
 - `COI_AICc.bionj`: neighbor joining (BIONJ) tree in newick format
 - `COI_AICc.ckp.gz`: periodic IQ-TREE checkpoint file in case needed to resume an interrupted run
@@ -10,4 +10,4 @@ Various output files from IQTREE analysis
 - `COI_AICc.model.gz`: log likelihoods for all models tested; checkpoint file to recover an interrupted model selection
 - `COI_AICc.splits.nex`: support values (%) for all bipartitions, computed as the occurence frequencies in the bootstrap trees
 - `COI_AICc.treefile`: best tree found by maximum-likelihood in newick format with ultrafast bootstrap support values 
-- `COI_AICc_rooted.treefile`: best tree found by maximum-likelihood in newick format with ultrafast bootstrap support values; root designated for graphing
+- `COI_AICc_rooted.treefile`: best tree found by maximum-likelihood in newick format with ultrafast bootstrap support values; root designated for graphing; final tree
