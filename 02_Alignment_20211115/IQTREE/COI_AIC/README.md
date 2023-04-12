@@ -1,5 +1,5 @@
 ## Files in this directory:
-Various output files from IQTREE analysis 
+Various output files from IQTREE analysis using AIC as model selection criterion 
 
 - `COI_AIC.bionj`: neighbor joining (BIONJ) tree in newick format
 - `COI_AIC.ckp.gz`: periodic IQ-TREE checkpoint file in case needed to resume an interrupted run
