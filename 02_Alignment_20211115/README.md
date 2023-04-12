@@ -80,7 +80,7 @@ Best-fit model according to AICc: TIM3+F+I+G4 ** this tree has the highest suppo
 ### ASTRAL: went ahead to do gene trees -> coalescent tree again for old time's sake
 - Can find all relevant inputs/results in `ASTRAL` directory here
 
-IQ-TREE by gene
+IQ-TREE by gene (files in the `IQTREE/MSC` directory)
 ```
 for gene in *.fasta; do
 iqtree -s $gene -m MFP -bb 1000;
