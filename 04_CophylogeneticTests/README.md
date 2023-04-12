@@ -4,18 +4,18 @@
 ## Files in this directory:
 Various input/output files for cophylogenetic analysis 
 
-- `COI_AICc_rooted.treefile`
-- `Lovette_Mites_coi.nex`
-- `Lovette_Mites_coi_jane_renamed.nex`
-- `Lovette_Mites_concat_AICc.nex`
-- `Lovette_Mites_concatenated_jane_renamed.nex`
-- `Lovetteetal2010parulids.nex`
-- `Mites_tree_concat_AICc_rooted.treefile`
-- `ParaFit_PACo_Clean.R`
-- `amero_matrix.csv`
-- `amero_matrix_newnames.txt`
-- `consensus95_hosts_ogs.tre`
-- `make_tangle.py`
+- `COI_AICc_rooted.treefile`: mite tree (COI only), rooted, using AICc
+- `Lovette_Mites_coi.nex`: output file from `make_tangle.py` for COI only; for input to JANE
+- `Lovette_Mites_coi_jane_renamed.nex`: output file from `make_tangle.py` for COI only with renamed species names; for input to JANE
+- `Lovette_Mites_concat_AICc.nex`: output file from `make_tangle.py` for concatenated data; for input to JANE
+- `Lovette_Mites_concatenated_jane_renamed.nex`: output file from `make_tangle.py` for concatenated data with renamed species names; for input to JANE
+- `Lovetteetal2010parulids.nex`: Lovette et al. 2010 parulid tree file from the Open Tree of Life
+- `Mites_tree_concat_AICc_rooted.treefile`: mite tree (all mt genes, concatenated), rooted, using AICc
+- `ParaFit_PACo_Clean.R`: R code to run ParaFit and PACo analyses
+- `amero_matrix.csv`: association_matrix.txt (old names) converted from .txt to .csv in Excel, input for `make_tangle.py`
+- `amero_matrix_newnames.txt`: association matrix of mites (columns) and hosts (rows) for ParaFit/PACo R script
+- `consensus95_hosts_ogs.tre`: BirdTree 95% consensus tree
+- `make_tangle.py`: makes tanglegram file for import to JANE
 
 ---
 
@@ -65,7 +65,7 @@ Necessary files:
 
 - `amero_matrix_newnames.txt`: association matrix of mites (columns) and hosts (rows). Make sure names match identically with phylogeny files in order for R script below to run properly. This is the one with the new names based on morphological analyses
 
-- `ParaFit_PACo.R` - R script that makes .nwk files of phylogenies using ape (for import into JANE), also run through the entirety of the ParaFit and PACo analyses (PACo in both the 'old' way, which makes the plots showing the mxy2 value for each association and also the 95% CIs for each link, as well as the 'new and improved' way which is much faster, but (as far as I know) doesn't make those plots)
+- `ParaFit_PACo_Clean.R` - R script that makes .nwk files of phylogenies using ape (for import into JANE), also run through the entirety of the ParaFit and PACo analyses (PACo in both the 'old' way, which makes the plots showing the mxy2 value for each association and also the 95% CIs for each link, as well as the 'new and improved' way which is much faster, but (as far as I know) doesn't make those plots)
 
 - `Lovetteetal2010parulids.nex`: Lovette et al. 2010 parulid tree file from the Open Tree of Life
 
