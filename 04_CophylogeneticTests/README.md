@@ -51,7 +51,7 @@ sumtrees.py --summary-target=consensus --min-clade-freq=0.95 --burnin=200 --supp
 
 ### Option 2. Obtain directly from Open Tree of Life and Lovette et al. 2010
 - Obtain tree here: `https://tree.opentreeoflife.org/curator/study/view/pg_2591/?tab=home`
-- This is the one I ended up using for downstream processess... (`Lovette_Mites_coi.nex`)
+- This is the one I ended up using for downstream processess... 
 - BirdTree tree was not as clear and had some odd sister clades which conflicted with Lovette et al. 2010 (which is what is used for taxonomy today)... 
 
 
